@@ -20,6 +20,13 @@ return {
       return opts
     end,
   },
+  {
+    "s1n7ax/nvim-window-picker",
+    opts = function(_, opts)
+      opts.selection_chars = 'abcd;efgh'
+      return opts
+    end,
+  },
   -- You can disable default plugins as follows:
   -- { "max397574/better-escape.nvim", enabled = false },
   --
