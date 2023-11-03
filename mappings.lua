@@ -42,6 +42,9 @@ return {
     -- tables with the `name` key will be registered with which-key if it's installed
     -- this is useful for naming menus
     ["<leader>b"] = { name = "Buffers" },
+    ["<leader>o"] = { name = "OrgMode" },
+    ["<leader>oa"] = { desc = "Agenda" },
+    ["<leader>oc"] = { desc = "Capture" },
     -- quick save
     -- ["<C-s>"] = { ":w!<cr>", desc = "Save File" },  -- change description but the same command
   },
