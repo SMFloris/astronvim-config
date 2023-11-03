@@ -71,7 +71,8 @@ return {
   polish = function()
     vim.filetype.add({
       pattern = {
-        [".*.blade.php"] = 'blade'
+        [".*.blade.php"] = 'blade',
+        [".*.norg"] = 'norg',
       }
     })
     -- vim.treesitter.language.register('html', 'blade')
