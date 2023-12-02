@@ -73,6 +73,7 @@ return {
       pattern = {
         [".*.blade.php"] = 'blade',
         [".*.norg"] = 'norg',
+        ["*.c3"] = 'c3'
       }
     })
     -- vim.treesitter.language.register('html', 'blade')
