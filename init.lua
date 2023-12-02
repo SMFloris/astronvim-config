@@ -70,6 +70,9 @@ return {
   -- anything that doesn't fit in the normal config locations above can go here
   polish = function()
     vim.filetype.add({
+      extension = {
+        c3 = "c3"
+      },
       pattern = {
         [".*.blade.php"] = 'blade',
         [".*.norg"] = 'norg',
