@@ -14,7 +14,8 @@ return {
       Y = "copy_selector",
       ["S"] = "split_with_window_picker",
       ["s"] = "vsplit_with_window_picker",
-      ["/"] = "noop"
+      ["/"] = "noop",
+      ["?"] = "noop"
     }
     return config -- return final config table
   end,
