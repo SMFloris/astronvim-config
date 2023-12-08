@@ -21,7 +21,8 @@ return {
     end,
   },
   {
-    "echasnovski/mini.completion"
+    "echasnovski/mini.completion",
+    event = "LspAttach"
   },
   {
     "s1n7ax/nvim-window-picker",
