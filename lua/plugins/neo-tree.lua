@@ -1,7 +1,7 @@
 return {
   "nvim-neo-tree/neo-tree.nvim",
-  opts = function(_, config)
-    config.window.mappings = {
+  opts = function(_, opts)
+    opts.window.mappings = {
       ["<space>"] = false, -- disable space until we figure out which-key disabling
       ["[b"] = "prev_source",
       ["]b"] = "next_source",
@@ -17,7 +17,7 @@ return {
       ["/"] = "noop",
       ["?"] = "noop"
     }
-    return config -- return final config table
   end,
 }
+
 

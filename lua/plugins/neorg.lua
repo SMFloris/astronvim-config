@@ -23,3 +23,4 @@ return {
       vim.wo.conceallevel = 2
     end,
 }
+
