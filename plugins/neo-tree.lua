@@ -5,10 +5,10 @@ return {
       ["<space>"] = false, -- disable space until we figure out which-key disabling
       ["[b"] = "prev_source",
       ["]b"] = "next_source",
-      o = "open",
+      ["w"] = "open",
       ["<2-LeftMouse>"] = "open_with_window_picker",
       ["<cr>"] = "open_with_window_picker",
-      O = "system_open",
+      ["W"] = "system_open",
       h = "parent_or_close",
       l = "child_or_open",
       Y = "copy_selector",
