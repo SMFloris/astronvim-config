@@ -82,8 +82,11 @@ return {
   },
   {
     "s1n7ax/nvim-window-picker",
+    event = "VeryLazy",
+    version = "2.*",
     opts = function(_, opts)
-      opts.selection_chars = 'abcd;efgh'
+      opts.hint = "floating-big-letter"
+      opts.selection_chars = "abcd;efgh"
       return opts
     end,
   },
