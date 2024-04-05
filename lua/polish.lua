@@ -28,7 +28,8 @@ function _G.current_hostname()
   local hostname = vim.fn.hostname()
   local user = vim.uv.os_getenv "USER"
 
-  return string.format("(%s@%s)", user, hostname)
+  return string.format("%s@%s", user, hostname)
 end
 
-vim.opt.titlestring = [[%{v:progname}: %p %{luaeval('current_hostname()')}]]
+vim.opt.titlelen = 0
+vim.opt.titlestring = [[%{luaeval('current_hostname()')}: %{expand("%:p")}]]
