@@ -86,7 +86,7 @@ return {
     version = "2.*",
     opts = function(_, opts)
       opts.hint = "floating-big-letter"
-      opts.picker_config.floating_big_letters.font = "DroidSansMono Nerd Font"
+      opts.picker_config.floating_big_letter.font = "DroidSansMono Nerd Font"
       opts.selection_chars = "abcd;efgh"
       return opts
     end,
