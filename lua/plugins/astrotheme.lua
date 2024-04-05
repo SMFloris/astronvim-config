@@ -7,9 +7,11 @@ return {
       astrodark = {
         ui = {
           base = "#282a36",
+          inactive_base = "#282a36",
+          prompt = "#282a36",
         },
         term = {
-          background = "#2E3440",
+          background = "#282a36",
         },
       },
     },
