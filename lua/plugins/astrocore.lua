@@ -81,6 +81,10 @@ return {
         -- this is useful for naming menus
         ["<Leader>b"] = { name = "Buffers" },
         ["<Leader><Leader>"] = false,
+        ["<Leader><Leader>a"] = false,
+        ["<Leader><Leader>e"] = false,
+        ["<Leader><Leader>m"] = false,
+        ["<Leader><Leader>t"] = false,
         ["<Leader>m"] = { desc = require("astroui").get_icon("Harpoon", 1, true) .. "Harpoon" },
         ["<Leader>me"] = {
           function() require("harpoon").ui:toggle_quick_menu(require("harpoon"):list()) end,
