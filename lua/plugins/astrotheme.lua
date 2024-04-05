@@ -6,9 +6,8 @@ return {
     palettes = {
       astrodark = {
         ui = {
-          base = "#282a36",
-          inactive_base = "#282a36",
           prompt = "#282a36",
+          statusline = "#3B4252",
         },
         term = {
           background = "#282a36",
