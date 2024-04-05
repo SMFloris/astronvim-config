@@ -32,4 +32,4 @@ function _G.current_hostname()
 end
 
 vim.opt.titlelen = 0
-vim.opt.titlestring = [[%{luaeval('current_hostname()')} %t: %{getcwd()}]]
+vim.opt.titlestring = [[%{luaeval('current_hostname()')} %f: %{getcwd()}]]
