@@ -3,7 +3,6 @@ return {
   opts = function(_, opts)
     opts.enable_cursor_hijack = true
     opts.popup_border_style = "solid"
-    opts.filesystem.find_by_full_path_words = true
     opts.filesystem.follow_current_file.leave_dirs_open = true
     opts.window.mappings = {
       ["<space>"] = false, -- disable space until we figure out which-key disabling
