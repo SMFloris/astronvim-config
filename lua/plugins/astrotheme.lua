@@ -1,10 +1,14 @@
 ---@type LazySpec
 return {
   "AstroNvim/astrotheme",
-  ---@type AstroThemOpts
+  ---@type AstroThemeOpts
   opts = {
-    style = {
-      transparent = true,
+    palettes = {
+      astrodark = {
+        term = {
+          background = "#2E3440",
+        },
+      },
     },
   },
 }
