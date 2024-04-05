@@ -80,7 +80,17 @@ return {
         -- tables with the `name` key will be registered with which-key if it's installed
         -- this is useful for naming menus
         ["<Leader>b"] = { name = "Buffers" },
-        ["<Leader>m"] = { name = "Markers" },
+        ["<Leader><Leader>"] = false,
+        ["<Leader>m"] = { desc = require("astroui").get_icon("Harpoon", 1, true) .. "Harpoon" },
+        ["<Leader>me"] = {
+          function() require("harpoon").ui:toggle_quick_menu(require("harpoon"):list()) end,
+          desc = "Toggle quick menu",
+        },
+        ["<Leader>fm"] = { "<Cmd>Telescope harpoon marks<CR>", desc = "Show marks in Telescope" },
+        ["<Leader>ma"] = { function() require("harpoon"):list():append() end, desc = "Add file" },
+        ["<Leader>mm"] = { function() require("harpoon"):list():next() end, desc = "Goto next mark" },
+        ["<Leader>mn"] = { function() require("harpoon"):list():prev() end, desc = "Goto previous mark" },
+
         -- quick save
         -- ["<C-s>"] = { ":w!<cr>", desc = "Save File" },  -- change description but the same command
       },
