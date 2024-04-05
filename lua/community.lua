@@ -8,6 +8,6 @@ return {
   { import = "astrocommunity.pack.lua" },
   { import = "astrocommunity.lsp.lsp-signature-nvim", enabled = true },
   { import = "astrocommunity.motion.harpoon", enabled = true },
-  { import = "astrocommunity.motion.leap", enabled = true },
+  { import = "astrocommunity.motion.leap-nvim", enabled = true },
   -- import/override with your plugins folder
 }
