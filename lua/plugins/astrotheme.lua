@@ -3,7 +3,7 @@ return {
   "AstroNvim/astrotheme",
   ---@type AstroThemOpts
   opts = {
-    style {
+    style = {
       transparent = true,
     },
   },
