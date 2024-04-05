@@ -24,4 +24,11 @@ parser_config.blade = {
   filetype = "blade",
 }
 
-vim.opt.titlestring = [[%{v:progname}: %p]]
+function _G.current_hostname()
+  local hostname = vim.fn.hostname()
+  local user = vim.uv.os_getenv "USER"
+
+  return string.format("(%s@%s)", user, hostname)
+end
+
+vim.opt.titlestring = [[%{v:progname}: %p %{luaeval('current_hostname()')}]]
