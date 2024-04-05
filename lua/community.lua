@@ -7,12 +7,6 @@ return {
   "AstroNvim/astrocommunity",
   { import = "astrocommunity.colorscheme.dracula-nvim" },
   { import = "astrocommunity.colorscheme.catppuccin" },
-  {
-    import = "astrocommunity.colorscheme.nordic",
-    lazy = false,
-    priority = 1000,
-    config = function() require("nordic").load() end,
-  },
   { import = "astrocommunity.pack.lua" },
   { import = "astrocommunity.lsp.lsp-signature-nvim", enabled = true },
   { import = "astrocommunity.motion.harpoon", enabled = true },
