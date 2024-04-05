@@ -6,7 +6,7 @@ return {
     palettes = {
       astrodark = {
         ui = {
-          base = "#24273a",
+          base = "#282a36",
         },
         term = {
           background = "#2E3440",
