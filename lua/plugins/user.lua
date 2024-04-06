@@ -7,7 +7,7 @@ return {
   -- == Examples of Adding Plugins ==
 
   "andweeb/presence.nvim",
-  "arnamak/stay-centered.nvim",
+  { "arnamak/stay-centered.nvim", priority = 10000 },
   -- customize alpha options
   {
     "goolord/alpha-nvim",
