@@ -11,6 +11,10 @@ return {
   { import = "astrocommunity.pack.lua" },
   { import = "astrocommunity.lsp.lsp-signature-nvim", enabled = true },
   { import = "astrocommunity.motion.harpoon", enabled = true },
-  { import = "astrocommunity.motion.leap-nvim", enabled = true },
+  {
+    import = "astrocommunity.motion.leap-nvim",
+    enabled = true,
+    opts = { highlight_unlabeled_phase_one_targets = true },
+  },
   -- import/override with your plugins folder
 }
