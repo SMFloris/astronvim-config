@@ -33,4 +33,4 @@ end
 
 vim.opt.titlelen = 0
 vim.opt.titlestring = [[%{luaeval('current_hostname()')} %f%m: %{getcwd()}]]
-vim.api.nvim_set_hl(0, "LeapBackdrop", { link = "Comment" })
+vim.api.nvim_set_hl(0, "LeapMatch", { link = "Cursor" })
