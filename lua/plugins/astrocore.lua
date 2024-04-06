@@ -31,6 +31,7 @@ return {
         signcolumn = "auto", -- sets vim.opt.signcolumn to auto
         wrap = false, -- sets vim.opt.wrap
         showtabline = 0,
+        scrolloff = 30,
       },
       g = { -- vim.g.<key>
         -- configure global vim variables (vim.g)
