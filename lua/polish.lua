@@ -33,3 +33,4 @@ end
 
 vim.opt.titlelen = 0
 vim.opt.titlestring = [[%{luaeval('current_hostname()')} %f%m: %{getcwd()}]]
+vim.opt.scrolloff = 10
