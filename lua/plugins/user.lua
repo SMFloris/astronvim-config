@@ -7,7 +7,13 @@ return {
   -- == Examples of Adding Plugins ==
 
   "andweeb/presence.nvim",
-  { "arnamak/stay-centered.nvim", priority = 10000 },
+  {
+    "arnamak/stay-centered.nvim",
+    event = "BufEnter",
+    priority = 10000,
+    enabled = true,
+    config = function(plugin, opts) require("stay-centered").setup() end,
+  },
   -- customize alpha options
   {
     "goolord/alpha-nvim",
