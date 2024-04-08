@@ -8,14 +8,13 @@ return {
   { import = "astrocommunity.colorscheme.dracula-nvim" },
   { import = "astrocommunity.colorscheme.catppuccin" },
   { import = "astrocommunity.colorscheme.github-nvim-theme" },
-  { import = "astrocommunity.scrolling.mini-animate" },
   { import = "astrocommunity.pack.lua" },
   { import = "astrocommunity.lsp.lsp-signature-nvim", enabled = true, opts = { hint_enable = true } },
   { import = "astrocommunity.motion.harpoon", enabled = true },
   {
     import = "astrocommunity.motion.leap-nvim",
     enabled = true,
-    opts = { highlight_unlabeled_phase_one_targets = true },
+    opts = {},
   },
   -- import/override with your plugins folder
 }
