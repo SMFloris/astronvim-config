@@ -1,9 +1,9 @@
 return {
   "nvim-neo-tree/neo-tree.nvim",
   opts = function(_, opts)
-    opts.hijack_netrw_behavior = "disabled"
     opts.enable_cursor_hijack = true
     opts.popup_border_style = "solid"
+    opts.filesystem.hijack_netrw_behavior = "disabled"
     opts.filesystem.find_by_full_path_words = true
     opts.filesystem.follow_current_file.leave_dirs_open = true
     opts.window.mappings = {
