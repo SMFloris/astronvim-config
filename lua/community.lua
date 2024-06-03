@@ -11,10 +11,6 @@ return {
   { import = "astrocommunity.pack.lua" },
   { import = "astrocommunity.lsp.lsp-signature-nvim", enabled = true, opts = { hint_enable = true } },
   { import = "astrocommunity.motion.harpoon", enabled = true },
-  {
-    import = "astrocommunity.motion.leap-nvim",
-    enabled = true,
-    opts = {},
-  },
+  { import = "astrocommunity.motion.flash", enabled = true },
   -- import/override with your plugins folder
 }
