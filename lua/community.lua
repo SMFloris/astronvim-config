@@ -12,21 +12,6 @@ return {
   { import = "astrocommunity.lsp.lsp-signature-nvim", enabled = true, opts = { hint_enable = true } },
   { import = "astrocommunity.motion.harpoon", enabled = true },
   { import = "astrocommunity.motion.flash-nvim", enabled = true },
-  {
-    import = "astrocommunity.motion.mini-surround",
-    enabled = true,
-    opts = {
-      mappings = {
-        n = {
-          delete = "do",
-          replace = "co",
-          highlight = "ov",
-          find = "on",
-          find_left = "oN",
-          update_n_lines = "cn",
-        },
-      },
-    },
-  },
+  { import = "astrocommunity.motion.nvim-surround" },
   -- import/override with your plugins folder
 }
