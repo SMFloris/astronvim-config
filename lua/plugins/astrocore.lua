@@ -98,7 +98,7 @@ return {
         ["<Leader>mn"] = { function() require("harpoon"):list():prev() end, desc = "Goto previous mark" },
 
         --
-        ["o"] = false,
+        o = false,
 
         -- quick save
         -- ["<C-s>"] = { ":w!<cr>", desc = "Save File" },  -- change description but the same command
