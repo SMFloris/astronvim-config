@@ -17,12 +17,14 @@ return {
     enabled = true,
     opts = {
       mappings = {
-        delete = "do",
-        replace = "co",
-        highlight = "vo",
-        find = "on",
-        find_left = "oN",
-        update_n_lines = "cn",
+        n = {
+          delete = "do",
+          replace = "co",
+          highlight = "ov",
+          find = "on",
+          find_left = "oN",
+          update_n_lines = "cn",
+        },
       },
     },
   },
