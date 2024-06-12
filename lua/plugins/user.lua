@@ -42,6 +42,22 @@ return {
 
   -- You can disable default plugins as follows:
   { "max397574/better-escape.nvim", enabled = true },
+  {
+    "jackMort/ChatGPT.nvim",
+    event = "VeryLazy",
+    enabled = true,
+    config = function()
+      require("chatgpt").setup {
+        api_key_cmd = "secret-tool service openai type token",
+      }
+    end,
+    dependencies = {
+      "MunifTanjim/nui.nvim",
+      "nvim-lua/plenary.nvim",
+      "folke/trouble.nvim",
+      "nvim-telescope/telescope.nvim",
+    },
+  },
 
   -- You can also easily customize additional setup of plugins that is outside of the plugin's setup call
   {

@@ -13,13 +13,5 @@ return {
   { import = "astrocommunity.motion.harpoon", enabled = true },
   { import = "astrocommunity.motion.flash-nvim", enabled = true },
   { import = "astrocommunity.motion.nvim-surround", enabled = true },
-  {
-    import = "astrocommunity.editing-support.chatgpt-nvim",
-    enabled = true,
-    opts = {
-      -- secret-tool store --label=OPENAI_KEY service openai type token
-      api_key_cmd = "secret-tool lookup service openai type token",
-    },
-  },
   -- import/override with your plugins folder
 }
