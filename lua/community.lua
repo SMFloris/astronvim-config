@@ -13,5 +13,6 @@ return {
   { import = "astrocommunity.motion.harpoon", enabled = true },
   { import = "astrocommunity.motion.flash-nvim", enabled = true },
   { import = "astrocommunity.motion.nvim-surround", enabled = true },
+  { import = "astrocommunity.editing-support.chatgpt-nvim", enabled = true },
   -- import/override with your plugins folder
 }
