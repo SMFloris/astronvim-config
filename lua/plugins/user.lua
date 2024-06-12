@@ -48,7 +48,7 @@ return {
     enabled = true,
     config = function()
       require("chatgpt").setup {
-        api_key_cmd = "secret-tool service openai type token",
+        api_key_cmd = "secret-tool lookup service openai type token",
       }
     end,
     dependencies = {
